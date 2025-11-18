@@ -1,0 +1,18 @@
+{
+    "id": 25610878,
+    "name": "aftermath",
+    "author": "Exenity",
+    "creators": ["Findexi", "Bassiegames", "Rhythmic", "Exenity", "REDACTED", "knobbelboy", "Squizz", "Vultra", "Waze"],
+    "firstSubmitter": "GabriNick",
+    "verification": "https://youtu.be/4hWYkxlU_Gw?si=q91vqnJ3kPpxOJsN",
+    "percentToQualify": 100,
+    "password": "020815",
+    "records": [
+        {
+            "user": "TeoFXC",
+            "link": "https://youtu.be/B57d3fZzBPw",
+            "percent": 100,
+            "fps": 240
+        }
+    ]
+}

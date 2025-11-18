@@ -1,0 +1,18 @@
+{
+    "id": 55985772,
+    "name": "Tech Manifestation",
+    "author": "Pleoslim",
+    "creators": ["MakFeed", "Pleoslim"],
+    "firstSubmitter": "PlaylinoTFF",
+    "verification": "https://www.youtube.com/watch?v=2a0xHcxV0Sw",
+    "percentToQualify": 100,
+    "password": "696969",
+    "records": [
+        {
+            "user": "GabriNick",
+            "link": "https://youtu.be/HN14QQ1LA1s?si=fm2ISkgUk-9yaOjR",
+            "percent": 100,
+            "fps": 240
+        }
+    ]
+}

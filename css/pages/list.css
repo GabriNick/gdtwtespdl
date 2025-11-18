@@ -1,0 +1,205 @@
+.page-list .list-container,
+.page-list .level-container,
+.page-list .meta-container {
+    padding-block: 2rem;
+}
+.page-list .list-container {
+    padding-inline: 1rem;
+}
+.page-list .meta-container {
+    padding-right: 2rem;
+}
+
+.page-list .list {
+    table-layout: auto;
+}
+/* Search input inside the list container. Kept minimal to avoid layout changes. */
+.page-list .list-search {
+    padding-bottom: 1rem;
+}
+.page-list .list-search .search-field {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.page-list .list-search .search-field.btn-like {
+    /* Dark/neutral background to clearly separate the search from the list */
+    background-color: #2a2a2a; /* gris oscuro */
+    color: #ffffff; /* white text inside */
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+    transition: background-color 140ms ease, box-shadow 120ms ease;
+}
+.page-list .list-search .search-field.btn-like:hover {
+    background-color: #303033;
+    color: #ffffff;
+}
+.page-list .list-search .search-field .search-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    opacity: 0.9;
+    color: inherit;
+}
+.page-list .list-search .search-field input[type="search"] {
+    flex: 1 1 auto;
+    border: none;
+    padding: 0.25rem 0; /* vertical padding only, horizontal provided by container */
+    background: transparent;
+    color: #ffffff; /* Force white text inside the input */
+    font-family: "Alan Sans", sans-serif;
+}
+.page-list .list-search .search-field input[type="search"]:focus {
+    outline: none;
+    /* no shadow on the input itself; container will show focus */
+    box-shadow: none;
+}
+
+/* show contour around the whole search control when any child has focus */
+.page-list .list-search .search-field.btn-like:focus-within {
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.85);
+}
+
+/* Hide native browser search clear buttons to avoid duplicate Xs */
+.page-list .list-search .search-field input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.page-list .list-search .search-field input[type="search"]::-ms-clear {
+    display: none;
+}
+.page-list .list-search .search-field input[type="search"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.page-list .list-search .search-field .search-clear {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #ffffff;
+}
+.page-list .list-search .search-field input[type="search"]::placeholder {
+    color: rgba(255,255,255,0.6);
+}
+.page-list .list-search .search-field.btn-like.dark {
+    background-color: #0f0f10; /* near black */
+    color: #ffffff;
+}
+.page-list .list-search .search-field.btn-like.dark:hover {
+    background-color: #1a1a1b;
+}
+.page-list .list .rank {
+    text-align: end;
+    padding-right: 1rem;
+}
+.page-list .list .level {
+    width: 100%;
+}
+.page-list .list .level button {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: start;
+    word-break: normal;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+.page-list .list .level.error button {
+    color: var(--color-error);
+    cursor: not-allowed;
+    text-decoration: line-through;
+}
+.page-list .list .level button:hover {
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background-hover);
+}
+.page-list .list .level.active button {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+.page-list .level-container .level {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: 2rem;
+    max-width: 48rem;
+}
+.page-list .level-container .level .level-authors {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-auto-rows: max-content;
+    gap: 1rem;
+}
+.page-list .level-container .level .video {
+    aspect-ratio: 16/9;
+}
+.page-list .level-container .level .stats {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 2rem;
+}
+.page-list .level-container .level .stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.page-list .level-container .level .records {
+    table-layout: fixed;
+}
+.page-list .level-container .level .records tr td:not(:last-child) {
+    padding-right: 1rem;
+}
+.page-list .level-container .level .records .percent,
+.page-list .level-container .level .records .user,
+.page-list .level-container .level .records .hz {
+    padding-block: 1rem;
+}
+.page-list .level-container .level .records .user {
+    width: 100%;
+}
+.page-list .level-container .level .records .percent,
+.page-list .level-container .level .records .hz {
+    text-align: end;
+}
+.page-list .meta-container .og a:hover,
+.page-list .level-container .level .records a:hover {
+    text-decoration: underline;
+}
+.page-list .meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.page-list .meta .errors {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.page-list .meta .errors .error {
+    padding: 1rem;
+    background-color: var(--color-error);
+    color: var(--color-on-error);
+    border-radius: 0.5rem;
+}
+.page-list .meta .editors {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.page-list .meta .editors li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.page-list .meta .editors li img {
+    height: 1.25rem;
+}
+.page-list .meta .editors li a:hover {
+    text-decoration: underline;
+}

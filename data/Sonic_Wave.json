@@ -1,0 +1,36 @@
+{
+    "id": 26681070,
+    "name": "Sonic Wave",
+    "author": "lSunix",
+    "creators": ["Cyclic"],
+    "firstSubmitter": "GabriNick",
+    "verification": "https://youtu.be/byYKyfnjIpU?si=vPugmFQUUp6jIRxo",
+    "percentToQualify": 100,
+    "password": "No Copiable",
+    "records": [
+        {
+            "user": "PlaylinoTFF",
+            "link": "https://www.youtube.com/watch?v=F-gTSJIgCA0",
+            "percent": 100,
+            "fps": 240
+        },
+        {
+            "user": "Brownie",
+            "link": "https://www.youtube.com/watch?v=sqdTh4iObCQ",
+            "percent": 100,
+            "fps": 240
+        },
+        {
+            "user": "TeoFXC",
+            "link": "https://www.youtube.com/watch?v=wVRRLt4Z6CI",
+            "percent": 100,
+            "fps": 240
+        },
+        {
+            "user": "La Terrorista de Carabayork",
+            "link": "https://www.youtube.com/watch?v=ZaOv0MUn5TM",
+            "percent": 100,
+            "fps": 240
+        }
+    ]
+}

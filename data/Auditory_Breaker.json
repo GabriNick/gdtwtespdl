@@ -1,0 +1,18 @@
+{
+    "id": 51791710,
+    "name": "Auditory Breaker",
+    "author": "LazerBlitz",
+    "creators": ["LazerBlitz", "Cyclic", "Manix648"],
+    "firstSubmitter": "GabriNick",
+    "verification": "https://youtu.be/lXmCDvVh1nM?si=b8HmL0Chvk7usFL-",
+    "percentToQualify": 100,
+    "password": "Sin contraseña",
+    "records": [
+        {
+            "user": "La Terrorista de Carabayork",
+            "link": "https://youtu.be/tdgSRsIbB0o?si=yNxpGXjtUng4xzIF",
+            "percent": 100,
+            "fps": 240
+        }
+    ]
+}

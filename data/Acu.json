@@ -1,0 +1,30 @@
+{
+    "id": 61079355,
+    "name": "Acu",
+    "author": "neigefeu",
+    "creators": [],
+    "firstSubmitter": "heav33n",
+    "verification": "https://youtu.be/5Li6cmOTXxE?si=2yhubPv1Yg8h-6f0",
+    "percentToQualify": 100,
+    "password": "Sin contraseña",
+    "records": [
+        {
+            "user": "GabriNick",
+            "link": "https://youtu.be/ixWPeHK9AoY?si=Y_KF-A3S9VZYYrQa",
+            "percent": 100,
+            "fps": 240
+        },
+        {
+            "user": "TeoFXC",
+            "link": "https://www.youtube.com/watch?v=G73nF6FTF6Y",
+            "percent": 100,
+            "fps": 240
+        },
+        {
+            "user": "PlaylinoTFF",
+            "link": "https://www.youtube.com/watch?v=fq_ZyDEhtck",
+            "percent": 100,
+            "fps": 240
+        }
+    ]
+}

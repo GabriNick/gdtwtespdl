@@ -1,0 +1,18 @@
+{
+    "id": 95764848,
+    "name": "niwa",
+    "author": "Teno",
+    "creators": ["KrazyGFX", "Mrgm", "peng", "Blaze", "Teno", "Pedro", "Aranda", "BeClan", "Titoalper", "Asuith", "Genoxide"],
+    "firstSubmitter": "GabriNick",
+    "verification": "https://youtu.be/w5flgraTHMQ?si=q9QaoD8gszDopurm",
+    "percentToQualify": 100,
+    "password": "Sin contraseña",
+    "records": [
+        {
+            "user": "ItzThiur",
+            "link": "https://youtu.be/bUQ2z-tWtds?si=YcHhFrYykQpN_7Tu",
+            "percent": 100,
+            "fps": 120
+        }
+    ]
+}

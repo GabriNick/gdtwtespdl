@@ -1,0 +1,11 @@
+{
+    "id": "ID",
+    "name": "Nombre",
+    "author": "Publicador",
+    "creators": ["Creador1", "Creador2", "Creador3", "Creador4", "Creador5", "Creador6", "Creador7", "Creador8", "Creador9"],
+    "firstSubmitter": "TUJHIKDHFSA",
+    "verification": "#",
+    "percentToQualify": 100,
+    "password": "676767",
+    "records": []
+}
