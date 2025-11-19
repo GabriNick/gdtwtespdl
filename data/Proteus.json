@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/tYrvve3bXOo?si=M4l7Y4sFd9xXhjLP",
     "percentToQualify": 100,
     "password": "696969",
-    "records": []
+    "records": [
+        {
+            "user": "Vegardo",
+            "link": "https://www.youtube.com/watch?v=GG1Gy7HI9ms",
+            "percent": 100,
+            "fps": 360
+        }]
 }
